@@ -9,5 +9,5 @@ int main(int argc, char **argv)
     image.set(52, 41, red);
     image.flip_vertically();
     image.write_tga_file("output.tga");
-    return 0; // comment
+    return 0;
 }
